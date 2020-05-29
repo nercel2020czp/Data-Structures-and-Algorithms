@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;c03_Add_Elements_in_BST&apos; to &apos;22_玩转数据结构/src/c06_Binary_Search_Tree&apos;&#x0D;&#x0A;- Original project: &apos;21_二叉搜索树&apos;&#x0D;&#x0A;- Destination element: &apos;22_玩转数据结构/src/c06_Binary_Search_Tree&apos;&#x0D;&#x0A;- Original element: &apos;21_二叉搜索树/src/c03_Add_Elements_in_BST&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=22_玩转数据结构/src&lt;c06_Binary_Search_Tree" element1="/src&lt;c03_Add_Elements_in_BST" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1588322753699" version="1.0"/>
+</session>

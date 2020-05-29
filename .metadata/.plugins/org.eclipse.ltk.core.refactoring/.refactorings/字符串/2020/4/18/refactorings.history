@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;面试题50_第一个只出现一次的字符&apos; to &apos;13_字符串/src&apos;&#x0D;&#x0A;- Original project: &apos;字符串&apos;&#x0D;&#x0A;- Destination element: &apos;13_字符串/src&apos;&#x0D;&#x0A;- Original element: &apos;字符串/src/面试题50_第一个只出现一次的字符&apos;" description="Copy package" destination="=13_字符串/src" element1="/src&lt;面试题50_第一个只出现一次的字符" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1587943004028" version="1.0"/>
+</session>

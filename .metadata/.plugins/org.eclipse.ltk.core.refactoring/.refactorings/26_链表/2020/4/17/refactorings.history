@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;09_双指针/src/l_0142_环形链表_II_linked_list_cycle_ii&apos;&#x0D;&#x0A;- Original project: &apos;链表&apos;&#x0D;&#x0A;- Destination element: &apos;09_双指针/src/l_0142_环形链表_II_linked_list_cycle_ii&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     t055_链表中环的入口结点.Solution1.java&#x0D;&#x0A;     图1.jpg" description="Copy elements" destination="=09_双指针/src&lt;l_0142_环形链表_II_linked_list_cycle_ii" element1="src/t055_链表中环的入口结点/图1.jpg" element2="/src&lt;t055_链表中环的入口结点{Solution1.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1587594222271" units="1" version="1.0"/>
+</session>

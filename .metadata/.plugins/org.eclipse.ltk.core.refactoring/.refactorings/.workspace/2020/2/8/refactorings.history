@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;动态规划/src/t0005_最长回文子串/最长公共子序列（LCS）问题&apos;" deleteContents="false" description="Delete resource &apos;动态规划/src/t0005_最长回文子串/最长公共子序列（LCS）问题&apos;" element1="/动态规划/src/t0005_最长回文子串/最长公共子序列（LCS）问题" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1582336833713"/>
+</session>

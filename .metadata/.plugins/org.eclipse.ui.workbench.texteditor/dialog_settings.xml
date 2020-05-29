@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="414" key="DIALOG_X_ORIGIN"/>
+		<item value="254" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="V" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="VV"/>
+			<item value="EE"/>
+			<item value="O(V)O(V)"/>
+			<item value="00"/>
+			<item value="11"/>
+			<item value="&#x09; * "/>
+			<item value="c04_Read_Graph"/>
+			<item value="O(\log n)"/>
+			<item value="nextInt"/>
+			<item value="Push"/>
+			<item value="Pop"/>
+			<item value="P"/>
+			<item value="bobo.algo"/>
+			<item value="&apos;"/>
+			<item value="center"/>
+		</list>
+		<list key="replacehistory">
+			<item value="V"/>
+			<item value="E"/>
+			<item value="O(V)"/>
+			<item value="0"/>
+			<item value="1"/>
+			<item value=""/>
+			<item value="c06_Finding_a_Path"/>
+			<item value="c05_DFS_and_Components"/>
+			<item value="c04_Read_Graph"/>
+			<item value="push"/>
+			<item value="pop"/>
+			<item value="p"/>
+			<item value="c03_Sorting_Advance.c08_Quick_Sort_Three_Ways"/>
+			<item value="mid"/>
+			<item value="String"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="300" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="410" key="DIALOG_HEIGHT"/>
+		<item value="838" key="DIALOG_X_ORIGIN"/>
+		<item value="137" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

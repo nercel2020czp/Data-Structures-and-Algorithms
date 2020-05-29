@@ -1,0 +1,90 @@
+时间限制：C/C++ 2秒，其他语言4秒 空间限制：C/C++ 32M，其他语言64M 热度指数：486574
+本题知识点： 数组
+ 算法知识视频讲解
+题目描述
+在数组中的两个数字，如果前面一个数字大于后面的数字，则这两个数字组成一个逆序对。输入一个数组,求出这个数组中的逆序对的总数P。
+并将P对1000000007取模的结果输出。 即输出P%1000000007
+输入描述:
+题目保证输入的数组中没有的相同的数字
+
+数据范围：
+	对于%50的数据,size<=10^4
+	对于%75的数据,size<=10^5
+	对于%100的数据,size<=2*10^5
+
+示例1
+输入
+	1,2,3,4,5,6,7,0
+输出
+	7
+-------------------------------------------
+归并排序使用分治策略，序列一分为二(O(1))后，将子序列递归排序(2 * T(n / 2))，
+最后合并有序子序列(O(n)),T(n) = 2 * T(n / 2) + O(n) = O(n * logn)。
+一、归并排序
+1、归并排序的实现
+	写递归函数就像开车，先系上安全带即先写出递归基。
+
+		public static void mergeSortCore(int[] arr, int lo, int hi) {
+	        if (lo == hi) { // <----- 安全带
+	            return;
+	        }
+	        int mid = ((hi - lo) >> 1) + lo;
+	        mergeSortCore(arr, lo, mid);
+	        mergeSortCore(arr, mid + 1, hi);
+	        merge(arr, lo, mid, hi);
+		}
+		
+2、二路归并的实现
+将两个有序序列合并为一个有序序列，如下(还有一个结构紧凑的写法，效率不高(merge2))
+		public static void merge(int[] arr, int lo,int mid, int hi) {
+		    int[] temp = new int[hi - lo + 1];
+		    int i = 0, p1 = lo, p2 = mid + 1;
+		    while (p1 <= mid && p2 <= hi) {
+		        temp[i++] = arr[p1] <= arr[p2] ? arr[p1++] : arr[p2++];
+		    }
+		    while (p1 <= mid) {
+		        temp[i++] = arr[p1++];
+		    }
+		    while (p2 <= hi) {
+		        temp[i++] = arr[p2++];
+		    }
+		    for (i = 0; i < temp.length; i++) {
+		        arr[lo + i] = temp[i];
+		    }
+		}
+		
+	二路归并即merge，是将两个有序的序列合并为一个有序的序列，在两个子序列left、
+	right合并过程中，当left中当前元素A小于right中当前元素B时，因为right序
+	列已经有序，所以不用比较，A一定是left、right两个子序列当前剩余元素中最小的
+	元素，这省去了A与B后其他元素比较的操作。
+	
+	对于本题，在两个子序列left、right合并过程中，当left中当前元素A大于right中
+	当前元素B时，因为right序列已经有序，所以不用比较，A一定大于right序列当前所有
+	剩余元素，其全部可以与A组成逆序对，即通过一次比较可到一批逆序对，加速统计过程。
+	
+	private int merge(int[] arr, int lo, int mid, int hi) {
+	    int[] temp = new int[hi - lo + 1];
+	    int index = 0;
+	    int count = 0;
+	    int p1 = lo, p2 = mid + 1;
+	    while (p1 <= mid && p2 <= hi) {
+	        // 与归并排序不同的地方，在merge过程中统计逆序对数
+	        if (arr[p1] > arr[p2]) {
+	            count += mid - p1 + 1;//这个地方要格外注意
+	            temp[index++] = arr[p2++];
+	        } else {
+	            temp[index++] = arr[p1++];
+	        }
+	    }
+	    while (p1 <= mid) {
+	        temp[index++] = arr[p1++];
+	    }
+	    while (p2 <= hi) {
+	        temp[index++] = arr[p2++];
+	    }
+	    for (int i = 0; i < temp.length; i++) {
+	        arr[lo++] = temp[i];
+	    }
+	 
+	    return count;
+	}    

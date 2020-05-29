@@ -1,0 +1,28 @@
+package sort02_选择排序;
+// 选择排序：方法2：【从无序序列中找出最大的那个元素，然后与无序序列最后面的那个元素交换位置】
+//只能从后往前排序
+public class SelectSort2 {
+	// 选择排序：方法2：【从无序序列中找出最大的那个元素，然后与无序序列最后面的那个元素交换位置】
+	//只能从后往前排序
+	public static void selectSort(int[] arr) {
+		//在推导的过程，我们发现了规律，因此，可以使用for来解决
+		//选择排序时间复杂度是 O(n^2)
+		for (int i = arr.length - 1; i > 0; i--) {
+			int maxIndex = i;
+			int max = arr[i];
+			for (int j = i; j > 0; j++) {
+				if (max < arr[j]) { // 说明假定的最小值，并不是最小
+					max = arr[j]; // 重置max
+					maxIndex = j; // 重置maxIndex
+				}
+			}
+			// 将最小值，放在arr[0], 即交换
+			if (maxIndex != i) {
+				arr[maxIndex] = arr[i];
+				arr[i] = max;
+			}
+			//System.out.println("第"+(i+1)+"轮后~~");
+			//System.out.println(Arrays.toString(arr));// 1, 34, 119, 101
+		}
+	}
+}

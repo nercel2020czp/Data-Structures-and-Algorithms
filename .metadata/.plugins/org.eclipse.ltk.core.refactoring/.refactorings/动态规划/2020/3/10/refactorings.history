@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;动态规划/src/没有搞懂的部分&apos; to &apos;动态规划_没有搞懂的部分&apos;" description="Rename resource &apos;没有搞懂的部分&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/没有搞懂的部分" name="动态规划_没有搞懂的部分" stamp="1583032571974" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;图1.png&apos; to &apos;队列/src/l_0239_滑动窗口最大值_sliding_window_maximum&apos;&#x0D;&#x0A;- Original project: &apos;剑指Offer_牛客&apos;&#x0D;&#x0A;- Destination element: &apos;队列/src/l_0239_滑动窗口最大值_sliding_window_maximum&apos;&#x0D;&#x0A;- Original element: &apos;图1.png&apos;" description="Copy file" destination="=队列/src&lt;l_0239_滑动窗口最大值_sliding_window_maximum" element1="src/t064_滑动窗口的最大值/图1.png" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1584264262960" units="0" version="1.0"/>
+</session>

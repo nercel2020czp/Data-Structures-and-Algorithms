@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;l_0295_数据流的中位数&apos; to &apos;堆/src&apos;&#x0D;&#x0A;- Original project: &apos;优先队列&apos;&#x0D;&#x0A;- Destination element: &apos;堆/src&apos;&#x0D;&#x0A;- Original element: &apos;优先队列/src/l_0295_数据流的中位数&apos;" description="Copy package" destination="=堆/src" element1="/src&lt;l_0295_数据流的中位数" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1584330447120" version="1.0"/>
+</session>

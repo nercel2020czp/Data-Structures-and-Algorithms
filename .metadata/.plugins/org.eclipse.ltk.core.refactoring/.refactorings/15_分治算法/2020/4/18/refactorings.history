@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;t0084_柱状图中最大的矩形_largest_rectangle_in_histogram&apos; to &apos;12_特殊数据结构/src/c01_单调栈&apos;&#x0D;&#x0A;- Original project: &apos;分治算法&apos;&#x0D;&#x0A;- Destination element: &apos;12_特殊数据结构/src/c01_单调栈&apos;&#x0D;&#x0A;- Original element: &apos;分治算法/src/t0084_柱状图中最大的矩形_largest_rectangle_in_histogram&apos;" description="Copy package" destination="=12_特殊数据结构/src&lt;c01_单调栈" element1="/src&lt;t0084_柱状图中最大的矩形_largest_rectangle_in_histogram" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1587988212186" version="1.0"/>
+</session>

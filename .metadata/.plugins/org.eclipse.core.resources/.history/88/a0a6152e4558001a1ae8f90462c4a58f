@@ -1,0 +1,36 @@
+package 面试题06_从尾到头打印链表;
+
+import java.util.LinkedList;
+/*
+方法二：辅助栈法
+解题思路：
+	链表特点： 只能从前至后访问每个节点。
+	题目要求： 倒序输出节点值。
+	这种 先入后出 的需求可以借助 栈 来实现。
+算法流程：
+	1.入栈： 遍历链表，将各节点值 push 入栈。（Python​ 使用 append() 方法，
+	  ​Java​借助 LinkedList 的addLast()方法）。
+    2.出栈： 将各节点值 pop 出栈，存储于数组并返回。（Python​ 直接返回 stack，
+      Java ​新建一个数组，通过 popLast() 方法将各元素存入数组，实现倒序输出）。
+复杂度分析：
+	时间复杂度 O(N)： 入栈和出栈共使用 O(N) 时间。
+	空间复杂度 O(N)： 辅助栈 stack 和数组 res 共使用 O(N)的额外空间。
+
+作者：jyd
+链接：https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/solution/mian-shi-ti-06-cong-wei-dao-tou-da-yin-lian-biao-d/
+来源：力扣（LeetCode）
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+*/
+public class Solution2 {
+	    public int[] reversePrint(ListNode head) {
+	        LinkedList<Integer> stack = new LinkedList<Integer>();
+	        while(head != null) {
+	            stack.addLast(head.val);
+	            head = head.next;
+	        }
+	        int[] res = new int[stack.size()];
+	        for(int i = 0; i < res.length; i++)
+	            res[i] = stack.removeLast();
+	    return res;
+	    }
+}

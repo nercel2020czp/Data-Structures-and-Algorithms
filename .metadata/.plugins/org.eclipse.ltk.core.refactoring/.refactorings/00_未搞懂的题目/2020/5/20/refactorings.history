@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;答题标准.c01_数码.Solution1.java&apos; to &apos;Main.java&apos;&#x0D;&#x0A;- Original project: &apos;00_未搞懂的题目&apos;&#x0D;&#x0A;- Original element: &apos;答题标准.c01_数码.Solution1.java&apos;&#x0D;&#x0A;- Renamed element: &apos;答题标准.c01_数码.Main.java&apos;" description="Rename compilation unit &apos;Solution1.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;答题标准.c01_数码{Solution1.java" name="Main.java" references="false" stamp="1589192271520" version="1.0"/>
+</session>

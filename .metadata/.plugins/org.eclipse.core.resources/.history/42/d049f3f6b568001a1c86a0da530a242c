@@ -1,0 +1,5 @@
+package sort02_选择排序;
+// 选择排序【从无序序列中找出最大的那个元素，然后与无序序列最前面的那个元素交换位置】
+public class SelectSort2 {
+
+}

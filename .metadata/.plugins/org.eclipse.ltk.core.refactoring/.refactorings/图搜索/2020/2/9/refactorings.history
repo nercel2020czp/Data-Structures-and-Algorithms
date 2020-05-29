@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;图搜索/题目汇总_图搜索&apos; to &apos;图搜索_题目汇总&apos;" description="Rename resource &apos;题目汇总_图搜索&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="题目汇总_图搜索" name="图搜索_题目汇总" stamp="1582762375120" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;排序&apos; to &apos;排序算法&apos;&#x0D;&#x0A;- Original element: &apos;排序&apos;&#x0D;&#x0A;- Renamed element: &apos;排序&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;排序&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=排序" name="排序算法" references="true" stamp="1584483688708" version="1.0"/>
+</session>

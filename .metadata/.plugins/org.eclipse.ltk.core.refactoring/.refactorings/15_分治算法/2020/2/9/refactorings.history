@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;分治算法/题目汇总_分治算法&apos; to &apos;分治算法_题目汇总&apos;" description="Rename resource &apos;题目汇总_分治算法&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="题目汇总_分治算法" name="分治算法_题目汇总" stamp="1582699966908" updateReferences="true"/>
+</session>

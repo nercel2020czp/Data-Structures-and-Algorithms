@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;l_0239_滑动窗口最大值_sliding_window_maximum&apos; to &apos;12_特殊数据结构/src/c02_单调队列&apos;&#x0D;&#x0A;- Original project: &apos;12_单调队列&apos;&#x0D;&#x0A;- Destination element: &apos;12_特殊数据结构/src/c02_单调队列&apos;&#x0D;&#x0A;- Original element: &apos;12_单调队列/src/l_0239_滑动窗口最大值_sliding_window_maximum&apos;" description="Copy package" destination="=12_特殊数据结构/src&lt;c02_单调队列" element1="/src&lt;l_0239_滑动窗口最大值_sliding_window_maximum" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1587823649690" version="1.0"/>
+</session>

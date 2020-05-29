@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;查找&apos; to &apos;查找算法&apos;&#x0D;&#x0A;- Original element: &apos;查找&apos;&#x0D;&#x0A;- Renamed element: &apos;查找&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;查找&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=查找" name="查找算法" references="true" stamp="1585550253299" version="1.0"/>
+</session>

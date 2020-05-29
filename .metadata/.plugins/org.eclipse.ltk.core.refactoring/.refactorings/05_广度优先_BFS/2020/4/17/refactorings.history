@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;l_0111_二叉树的最小深度.Solution&apos; to &apos;Solution1&apos;&#x0D;&#x0A;- Original project: &apos;05_广度优先_BFS&apos;&#x0D;&#x0A;- Original element: &apos;l_0111_二叉树的最小深度.Solution&apos;&#x0D;&#x0A;- Renamed element: &apos;l_0111_二叉树的最小深度.Solution1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Solution&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;l_0111_二叉树的最小深度{Solution.java[Solution" matchStrategy="1" name="Solution1" qualified="false" references="true" similarDeclarations="false" stamp="1587615009592" textual="false" version="1.0"/>
+</session>

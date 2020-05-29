@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;l_0414_第三大的数&apos; to &apos;24_堆/src&apos;&#x0D;&#x0A;- Original project: &apos;25_数组&apos;&#x0D;&#x0A;- Destination element: &apos;24_堆/src&apos;&#x0D;&#x0A;- Original element: &apos;25_数组/src/l_0414_第三大的数&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=24_堆/src" element1="/src&lt;l_0414_第三大的数" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1588576329986" version="1.0"/>
+</session>

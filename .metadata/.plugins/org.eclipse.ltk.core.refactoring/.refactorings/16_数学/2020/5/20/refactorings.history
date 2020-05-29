@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;l_0050_Pow_x_n&apos; to &apos;29_二分思想/src&apos;&#x0D;&#x0A;- Original project: &apos;16_数学&apos;&#x0D;&#x0A;- Destination element: &apos;29_二分思想/src&apos;&#x0D;&#x0A;- Original element: &apos;16_数学/src/l_0050_Pow_x_n&apos;" description="Copy package" destination="=29_二分思想/src" element1="/src&lt;l_0050_Pow_x_n" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1589200504530" version="1.0"/>
+</session>

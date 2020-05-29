@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;递归算法/题目汇总&apos; to &apos;题目汇总_递归算法&apos;" description="Rename resource &apos;题目汇总&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="题目汇总" name="题目汇总_递归算法" stamp="1582699816759" updateReferences="true"/>
+</session>
