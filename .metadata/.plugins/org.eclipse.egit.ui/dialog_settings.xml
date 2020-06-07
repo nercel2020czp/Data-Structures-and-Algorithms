@@ -2,11 +2,12 @@
 <section name="Workbench">
 	<item value="2" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
 	<list key="EGit.KnownHosts">
-		<item value="bitbucket.org"/>
 		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
 		<item value="github.com"/>
 	</list>
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/nercel2020czp/Data-Structures-and-Algorithms.git"/>
 		<item value="https://github.com/nercel2020czp/TestGit.git"/>
 	</list>
 	<list key="CommitDialog.authorValues">
